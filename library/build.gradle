@@ -1,5 +1,5 @@
 apply plugin: 'com.android.library'
-apply plugin: 'bintray-release'
+//apply plugin: 'bintray-release'
 
 def final String VERSION_NAME = "0.3.0"
 def final int VERSION_CODE = 30
@@ -28,11 +28,11 @@ dependencies {
     compile 'com.android.support:appcompat-v7:23.1.1'
 }
 
-publish {
-    userOrg = 'flschweiger'
-    groupId = 'link.fls'
-    artifactId = 'swipestack'
-    publishVersion = VERSION_NAME
-    desc = 'A swipeable view stack for Android.'
-    website = 'https://github.com/flschweiger/SwipeStack'
-}
+//publish {
+//    userOrg = 'flschweiger'
+//    groupId = 'link.fls'
+//    artifactId = 'swipestack'
+//    publishVersion = VERSION_NAME
+//    desc = 'A swipeable view stack for Android.'
+//    website = 'https://github.com/flschweiger/SwipeStack'
+//}
